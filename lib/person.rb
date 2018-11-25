@@ -13,6 +13,7 @@ class Person
       return true
     else
       return false
+    end
   end
   
   def get_paid(salary)
