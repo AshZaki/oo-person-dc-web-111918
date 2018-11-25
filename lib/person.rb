@@ -73,6 +73,8 @@ class Person
       friend.happiness += 1
       self.happiness += 1
       return  "blah blah sun blah rain"
+    else
+      return 
     end
   end
 end
