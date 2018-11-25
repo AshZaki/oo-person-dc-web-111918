@@ -8,6 +8,25 @@ class Person
     @hygiene = 8
   end
   
+  def happiness=(new_happiness)
+    @happiness = new_happiness
+    if new_happiness > 10
+      @happiness = 10
+    elsif new_happiness < 0
+      @happiness = 0
+    end
+  end
+  
+  def hygiene=(new_hygiene)
+    @hygiene = new_hygiene
+    if new_hygiene > 10
+      @hygiene = 10
+    else
+      new_hygiene < 0
+      @hygiene = 0
+    end
+  end
+  
   def happy?
     if @happiness > 7
       return true
@@ -29,14 +48,7 @@ class Person
     return "all about the benjamins"
   end
   
-  def happiness=(new_happiness)
-    @happiness = new_happiness
-    if new_happiness > 10
-      @happiness = 10
-    elsif new_happiness < 0
-      @happiness = 0
-    end
-  end
+  
   
   def take_bath
       self.hygiene += 4
