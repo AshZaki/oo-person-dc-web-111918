@@ -26,9 +26,6 @@ class Person
       self.hygiene += 4
       return "♪ Rub-a-dub just relaxing in the tub ♫"
   end
-  
-  def 
-  end
 end
 
   
