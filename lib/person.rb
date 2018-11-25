@@ -8,6 +8,13 @@ class Person
     @hygiene = 8
   end
   
+  def happy?
+    if @happiness > 7
+      return true
+    else
+      return false
+  end
+  
   def get_paid(salary)
     @bank_account += salary
     return "all about the benjamins"
