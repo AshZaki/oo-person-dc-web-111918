@@ -62,8 +62,9 @@ class Person
     friend.happiness += 3
     self.happiness += 3
     return "Hi #{friend.name}! It's #{self.name}. How are you?"
-    
   end
+  
+  def 
 end
 
   
