@@ -16,6 +16,14 @@ class Person
     end
   end
   
+  def clean?
+    if @hygiene > 7
+      return true
+    else
+      return false
+    end
+  end
+  
   def get_paid(salary)
     @bank_account += salary
     return "all about the benjamins"
