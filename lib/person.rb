@@ -57,6 +57,13 @@ class Person
     self.hygiene -= 3
     return "♪ another one bites the dust ♫"
   end
+  
+  def call_friend(friend)
+    friend.happiness += 3
+    self.happiness += 3
+    return 
+    
+  end
 end
 
   
