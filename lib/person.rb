@@ -74,7 +74,7 @@ class Person
       self.happiness += 1
       return  "blah blah sun blah rain"
     else
-      return 
+      return "blah blah blah blah blah"
     end
   end
 end
