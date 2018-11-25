@@ -21,8 +21,7 @@ class Person
     @hygiene = new_hygiene
     if new_hygiene > 10
       @hygiene = 10
-    else
-      new_hygiene < 0
+    elsif new_hygiene < 0
       @hygiene = 0
     end
   end
